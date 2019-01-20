@@ -3,11 +3,11 @@ body
     margin: auto;
     max-width: 900px;
     line-height:1.4;
-    font-size:1em;
+
     color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding:0 10px;
-    background-color: #E1E1E1;
+    background-color: rgb(207, 207, 207);
 }
 
 a 
@@ -31,6 +31,7 @@ h4
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
     font-size: 1.2em;
 }
 
@@ -40,5 +41,13 @@ h4
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 0 50px 0;
+    align-items: center;
+    margin: 10px 0 50px 0;
+    font-size: 0.9em;
+}
+
+.icon
+{
+    width: 32px;
+    padding: 5px 5px 0 5px;
 }
