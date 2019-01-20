@@ -49,5 +49,6 @@ h4
 .icon
 {
     width: 32px;
-    padding: 5px 5px 0 5px;
+    padding: 5px 10px 0 5px;
+    color: black;
 }
