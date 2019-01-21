@@ -3,16 +3,22 @@ body
     margin: auto;
     max-width: 900px;
     line-height:1.4;
-
+    font-size: 1em;
     color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding:0 10px;
     background-color: rgb(207, 207, 207);
 }
 
+
 a 
 {
     text-decoration: none;
+}
+
+h1
+{
+    margin: 30px 0 0 0;
 }
 
 h3
@@ -48,7 +54,62 @@ h4
 
 .icon
 {
-    width: 32px;
     padding: 5px 10px 0 5px;
     color: black;
+    font-size: 2em;
+}
+
+.profile-pic
+{
+    max-width: 200px;
+    margin: 0 20px 20px 0;
+}
+
+.project
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 40px 0;
+}
+
+.project-pic
+{
+    width: 200px;
+    margin: 0 20px 0 0;
+    text-align: center;
+    border: 1px solid black;
+    color: #62688F;
+    background-color: #151B2F;
+}
+
+@media only screen and (max-device-width: 480px)
+{
+    body
+    {
+        font-size: 3em;
+    }
+
+    .icon
+    {
+        padding: 20px 20px 0 20px;
+        font-size: 1.7em;
+    }
+
+    .footer
+    {
+        font-size: 0.5em;
+    }
+
+    .profile-pic
+    {
+        max-width: 70vw;
+    }
+
+    .project-pic
+    {
+        width: 70vw;
+        margin: 0 0 20px 0;
+    }
 }
