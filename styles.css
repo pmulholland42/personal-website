@@ -59,7 +59,7 @@ h4
     font-size: 2em;
 }
 
-.profile-pic
+#profile-pic
 {
     max-width: 200px;
     margin: 0 20px 20px 0;
@@ -84,6 +84,17 @@ h4
     background-color: #151B2F;
 }
 
+.text-section
+{
+    width: 75%;
+}
+
+#skills
+{
+    margin: 0 40px 20px 0;
+}
+
+/* Mobile */
 @media only screen and (max-device-width: 480px)
 {
     body
@@ -102,14 +113,33 @@ h4
         font-size: 0.5em;
     }
 
-    .profile-pic
+    #profile-pic
     {
         max-width: 70vw;
+        margin-left: 2.5vw;
+    }
+
+    h2
+    {
+        margin-left: 2.5vw;
     }
 
     .project-pic
     {
         width: 70vw;
         margin: 0 0 20px 0;
+    }
+
+    .text-section
+    {
+        width: 95%;
+        margin: auto;
+    }
+
+    #skills
+    {
+        width: 95%;
+        margin: auto;
+        padding-bottom: 30px;
     }
 }
