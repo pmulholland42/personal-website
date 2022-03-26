@@ -1,145 +1,154 @@
-body
-{
-    margin: auto;
-    max-width: 900px;
-    line-height:1.4;
-    font-size: 1em;
-    color:black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding:0 10px;
-    background-color: rgb(207, 207, 207);
+body {
+  margin: auto;
+  max-width: 900px;
+  line-height: 1.4;
+  font-size: 1em;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0 10px;
+  background-color: rgb(233, 233, 233);
 }
 
-
-a 
-{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-h1
-{
-    margin: 30px 0 0 0;
+h1 {
+  margin: 30px 0 0 0;
 }
 
-h3
-{
-    margin: 5px 0
+h3 {
+  margin: 5px 0;
 }
 
-h4
-{
-    margin: 0 0
+h4 {
+  margin: 0 0;
 }
 
-.header
-{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    font-size: 1.2em;
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 1.2em;
 }
 
-.footer
-{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 0 50px 0;
-    font-size: 0.9em;
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 50px 0;
+  font-size: 0.9em;
 }
 
-.icon
-{
-    padding: 5px 10px 0 5px;
-    color: black;
-    font-size: 2em;
+.icon {
+  padding: 5px 10px 0 5px;
+  color: black;
+  font-size: 2em;
 }
 
-#profile-pic
-{
-    max-width: 200px;
-    margin: 0 20px 20px 0;
+#profile-pic {
+  max-width: 200px;
+  margin: 0 20px 20px 0;
 }
 
-.project
-{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    margin: 0 0 40px 0;
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 40px 0;
 }
 
-.project-pic
-{
-    width: 200px;
-    margin: 0 20px 0 0;
-    text-align: center;
-    border: 1px solid black;
-    color: #62688F;
-    background-color: #151B2F;
+.project-pic {
+  width: 200px;
+  margin: 0 20px 0 0;
+  text-align: center;
+  border: 1px solid black;
+  color: #62688f;
+  background-color: #151b2f;
 }
 
-.text-section
-{
-    width: 75%;
+.text-section {
+  width: 100%;
 }
 
-#skills
-{
-    margin: 0 40px 20px 0;
+#skills {
+  margin: 0 40px 20px 0;
+}
+
+.work-experience-timeline {
+  border-right: 4px solid black;
+  margin-right: 10px;
+  padding-right: 10px;
+  flex: 2;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 25px;
+}
+
+.work-experience-entry {
+  padding-bottom: 15px;
+  flex: 11;
+}
+
+.work-experience-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.tech-pill {
+  font-size: 0.7em;
+  padding: 3px 8px 3px 8px;
+  margin-left: 25px;
+  border: 1px solid black;
+  border-radius: 100px;
+  background-color: rgb(214, 214, 214);
 }
 
 /* Mobile */
-@media only screen and (max-device-width: 480px)
-{
-    body
-    {
-        font-size: 3em;
-    }
+@media only screen and (max-device-width: 480px) {
+  body {
+    font-size: 3em;
+  }
 
-    .icon
-    {
-        padding: 20px 20px 0 20px;
-        font-size: 1.7em;
-    }
+  .icon {
+    padding: 20px 20px 0 20px;
+    font-size: 1.7em;
+  }
 
-    .footer
-    {
-        font-size: 0.5em;
-    }
+  .footer {
+    font-size: 0.5em;
+  }
 
-    #profile-pic
-    {
-        max-width: 70vw;
-        margin-left: 2.5vw;
-    }
+  #profile-pic {
+    max-width: 70vw;
+    margin-left: 2.5vw;
+  }
 
-    h2
-    {
-        margin-left: 2.5vw;
-    }
+  h2 {
+    margin-left: 2.5vw;
+  }
 
-    .project-pic
-    {
-        width: 70vw;
-        margin: 0 0 20px 0;
-    }
+  .project-pic {
+    width: 70vw;
+    margin: 0 0 20px 0;
+  }
 
-    .text-section
-    {
-        width: 95%;
-        margin: auto;
-    }
+  .text-section {
+    width: 95%;
+    margin: auto;
+  }
 
-    #skills
-    {
-        width: 95%;
-        margin: auto;
-        padding-bottom: 30px;
-    }
+  #skills {
+    width: 95%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
 }
