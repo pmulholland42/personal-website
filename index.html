@@ -14,348 +14,397 @@
   </head>
 
   <body>
-    <div class="header">
-      <h1>Peter Mulholland</h1>
-      <div style="display: flex; align-items: center">
-        <a
-          href="https://github.com/pmulholland42"
-          class="icon fab fa-github"
-          title="GitHub: pmulholland42"
-          target="_blank"
-          rel="noopener noreferrer"
-          name="helo"
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/peter-mulholland/"
-          class="icon fab fa-linkedin"
-          title="LinkedIn"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a>
+    <div class="menu-header-container">
+      <div class="menu-header">
+        <a href="#home" class="menu-header-link home-link">HOME</a>
+        <a href="#aboutme" class="menu-header-link">ABOUT ME</a>
+        <a href="#portfolio" class="menu-header-link">PORTFOLIO</a>
+        <a href="#resume" class="menu-header-link">RESUME</a>
+        <a href="#contact" class="menu-header-link">CONTACT</a>
       </div>
     </div>
-    <hr />
 
-    <h2>About me</h2>
-    <div
-      style="
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-      "
-    >
+    <section id="home">
+      <div class="main-header">
+        <h1 class="main-header-title">Peter Mulholland</h1>
+        <div class="main-header-subtitle-container">
+          <div class="main-header-subtitle">
+            <i class="fas fa-briefcase" style="margin-right: 10px"></i>Software
+            Developer
+          </div>
+          <div class="main-header-subtitle">
+            <i class="fas fa-map-marker-alt" style="margin-right: 10px"></i
+            >Pittsburgh, PA
+          </div>
+        </div>
+        <p class="summary-paragraph">
+          Welcome to my website! Scroll or click to learn more
+          <a href="#aboutme">about me</a>.
+        </p>
+      </div>
+    </section>
+
+    <section id="aboutme">
+      <h2>About me</h2>
+
       <div class="text-section">
-        Hi! I'm a software engineer based in Pittsburgh, PA.
+        Hi! I'm a software engineer based in Pittsburgh, PA. I have over 4 years
+        of experience with professional software development. My main experience
+        is in web dev and mobile app dev, but I'm interested in a wide variety
+        of fields, including machine learning and blockchain. I also enjoy
+        photography, gaming, and baking cheesecake. Check out some of my
+        favorite programming projects below!
       </div>
-    </div>
+    </section>
 
-    <br />
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Check out some projects I've worked on:</p>
 
-    <h2>Projects</h2>
-
-    <div class="project-container">
-      <img
-        src="assets/spacemap.png"
-        class="project-pic"
-        alt="Screenshot of Spacecraft Map"
-        title="Screenshot of Spacecraft Map"
-      />
-      <div class="project">
-        <div class="project-title-container">
-          <h3 class="project-title">Spacecraft map</h3>
-          <div class="flex-row">
-            <div class="tech-pill">TypeScript</div>
-            <div class="tech-pill">React</div>
-            <div class="tech-pill">Sass</div>
-          </div>
-        </div>
-
-        <p>
-          A 2D interactive map of the solar system where all distances and sizes
-          are to scale. For this project I focused on creating smooth animations
-          for various UI components as well as zooming and panning around the
-          map.
-        </p>
-        <div class="link-button-container">
-          <a
-            href="http://spacecraftmap.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="link-button"
-            >View map
-          </a>
-          <a
-            href="https://github.com/pmulholland42/spacecraft-map"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="link-button"
-            >View source code</a
-          >
-        </div>
-      </div>
-    </div>
-
-    <div class="project-container">
-      <img
-        src="assets/coolgame.png"
-        alt="Screenshot of Cool Game Dot Win"
-        title="Screenshot of CoolGameDotWin"
-        class="project-pic"
-      />
-      <div class="project">
-        <div class="project-title-container">
-          <h3 class="project-title">CoolGameDotWin</h3>
-          <div class="flex-row">
-            <div class="tech-pill">JavaScript</div>
-          </div>
-        </div>
-
-        <p>
-          A 2D browser game that you can control with your phone. I developed
-          this at SteelHacks 2017 with Tyler Bobik, Andrew Masih, and Dan
-          Critchfield. We won first place for it!
-        </p>
-        <div class="link-button-container">
-          <a
-            href="http://www.coolgame.win"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="link-button"
-            >Play now</a
-          >
-          <a
-            href="https://github.com/pmulholland42/CoolGameDotWin"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="link-button"
-            >View source code</a
-          >
-        </div>
-      </div>
-    </div>
-
-    <div class="project-container">
-      <img
-        src="assets/ethereum.png"
-        alt="Ethereum logo"
-        title="Ethereum logo"
-        class="project-pic"
-      />
-      <div class="project">
-        <div class="project-title-container">
-          <h3 class="project-title">KwikSilverCoin</h3>
-          <div class="flex-row">
-            <div class="tech-pill">Solidity</div>
-          </div>
-        </div>
-        <p>
-          An ERC-20 token running on the Ethereum network. It costs more to send
-          the longer you hold it.
-        </p>
-        <div class="link-button-container">
-          <a
-            href="https://ropsten.etherscan.io/address/0x4b7b60722e1fe118853b5aca95e0ca44307d0a99"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="link-button"
-            >View contract
-          </a>
-          <a
-            href="https://github.com/pmulholland42/KwikSilverCoin"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="link-button"
-            >View source code</a
-          >
-        </div>
-      </div>
-    </div>
-
-    <div class="project-container">
-      <img
-        src="assets/website.png"
-        alt="Screenshot of this website"
-        title="Screenshot of this website"
-        class="project-pic"
-      />
-      <div class="project">
-        <div class="project-title-container">
-          <h3 class="project-title">Personal website</h3>
-          <div class="flex-row">
-            <div class="tech-pill">HTML</div>
-            <div class="tech-pill">CSS</div>
-          </div>
-        </div>
-        <p>
-          This one you're looking at now. Designed with a focus on simplicity,
-          accessibility, and responsiveness.
-        </p>
-        <div class="link-button-container">
-          <a class="link-button" href="http://petermulholland.co">View </a>
-          <a
-            href="https://github.com/pmulholland42/personal-website"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="link-button"
-            >View source code
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <br />
-
-    <div class="text-section">
-      <br />
-
-      <h2>Work Experience</h2>
-      <div>
-        <div class="work-experience-container">
-          <div class="work-experience-timeline">December 2021 - Present</div>
-          <div class="work-experience-entry">
-            <h3>
-              <a href="https://www.shieldshealthsolutions.com/">
-                Shields Health Solutions
-              </a>
-            </h3>
+      <div class="project-container">
+        <img
+          src="assets/spacemap.png"
+          class="project-pic"
+          alt="Screenshot of Spacecraft Map"
+          title="Screenshot of Spacecraft Map"
+        />
+        <div class="project">
+          <div class="project-title-container">
+            <h3 class="project-title">Spacecraft map</h3>
             <div class="flex-row">
-              <h4>Software Developer</h4>
-              <div class="tech-pill">Java</div>
-              <div class="tech-pill">Spring</div>
-              <div class="tech-pill">PostgreSQL</div>
-              <div class="tech-pill">Elm</div>
-              <div class="tech-pill">CSS</div>
-            </div>
-            <p style="font-size: 1em">
-              I am working closely with my team to develop new features for a
-              web application. I am practicing test driven development and pair
-              programming to ensure code quality. I am participating in the
-              Agile methodology with sprint planning meetings, daily standups,
-              and retrospectives. I am also participating in and hosting code
-              review and lunch & learn meetings where developers on the team can
-              share technical knowledge.
-            </p>
-          </div>
-        </div>
-
-        <div class="work-experience-container">
-          <div class="work-experience-timeline">
-            August 2021 - December 2021
-          </div>
-          <div class="work-experience-entry">
-            <h3>
-              <a href="https://www.bentley.com"> Bentley Systems </a>
-            </h3>
-            <div class="flex-row">
-              <h4>Software Engineer 1</h4>
-              <div class="tech-pill">TypeScript</div>
-              <div class="tech-pill">React Native</div>
-              <div class="tech-pill">C#</div>
-              <div class="tech-pill">.NET Core</div>
-              <div class="tech-pill">Postman</div>
-            </div>
-            <p style="font-size: 1em">
-              I worked with my team to design and develop a new mobile
-              application. I participated in meetings with product owners to
-              understand and refine requirements, as well as meetings with other
-              developers and UI designers to design workflows and pages within
-              the app. I did full-stack development, wrote documentation, and
-              did code reviews. I also led an initiative to improve testing by
-              adding unit tests for our app's API.
-            </p>
-          </div>
-        </div>
-
-        <div class="work-experience-container">
-          <div class="work-experience-timeline">
-            <div>May 2019 - August 2021</div>
-          </div>
-          <div class="work-experience-entry">
-            <div class="flex-row">
-              <h4>Associate Software Engineer</h4>
               <div class="tech-pill">TypeScript</div>
               <div class="tech-pill">React</div>
-              <div class="tech-pill">C#</div>
-              <div class="tech-pill">.NET Core</div>
-              <div class="tech-pill">SQL Server</div>
+              <div class="tech-pill">Sass</div>
             </div>
-            <p style="font-size: 1em">
-              I participated in an onboarding program where I rotated between
-              teams throughout my first two years. I worked with two different
-              web development teams, a mobile development team, and the
-              application security team. I was able to quickly learn and adapt
-              to each new team so I could make meaningful contributions, and
-              bring ideas across teams to improve technology and processes.
-              During this time I also mentored a summer intern.
-            </p>
+          </div>
+
+          <p>
+            A 2D interactive map of the solar system where all distances and
+            sizes are to scale. For this project I focused on creating smooth
+            animations for various UI components as well as zooming and panning
+            around the map.
+          </p>
+          <div class="link-button-container">
+            <a
+              href="http://spacecraftmap.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-button"
+              >View map
+            </a>
+            <a
+              href="https://github.com/pmulholland42/spacecraft-map"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-button"
+              >View source code</a
+            >
           </div>
         </div>
+      </div>
 
-        <div class="work-experience-container">
-          <div class="work-experience-timeline">
-            <div>May 2017 - August 2018</div>
-          </div>
-          <div class="work-experience-entry">
+      <div class="project-container">
+        <img
+          src="assets/coolgame.png"
+          alt="Screenshot of Cool Game Dot Win"
+          title="Screenshot of CoolGameDotWin"
+          class="project-pic"
+        />
+        <div class="project">
+          <div class="project-title-container">
+            <h3 class="project-title">CoolGameDotWin</h3>
             <div class="flex-row">
-              <h4>Intern</h4>
-              <div class="tech-pill">Angular</div>
-              <div class="tech-pill">C#</div>
-              <div class="tech-pill">ASP.NET</div>
-              <div class="tech-pill">SQL Server</div>
-              <div class="tech-pill">Oracle SQL</div>
+              <div class="tech-pill">JavaScript</div>
             </div>
+          </div>
 
-            <p style="font-size: 1em">
-              Fixed defects and added functionality to a production web app.
-              Made performance improvements across several pages of the site.
-            </p>
+          <p>
+            A 2D browser game that you can control with your phone. I developed
+            this at SteelHacks 2017 with Tyler Bobik, Andrew Masih, and Dan
+            Critchfield. We won first place for it!
+          </p>
+          <div class="link-button-container">
+            <a
+              href="http://www.coolgame.win"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-button"
+              >Play now</a
+            >
+            <a
+              href="https://github.com/pmulholland42/CoolGameDotWin"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-button"
+              >View source code</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <img
+          src="assets/ethereum.png"
+          alt="Ethereum logo"
+          title="Ethereum logo"
+          class="project-pic"
+        />
+        <div class="project">
+          <div class="project-title-container">
+            <h3 class="project-title">KwikSilverCoin</h3>
+            <div class="flex-row">
+              <div class="tech-pill">Solidity</div>
+            </div>
+          </div>
+          <p>
+            An ERC-20 token running on the Ethereum network. It costs more to
+            send the longer you hold it.
+          </p>
+          <div class="link-button-container">
+            <a
+              href="https://ropsten.etherscan.io/address/0x4b7b60722e1fe118853b5aca95e0ca44307d0a99"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-button"
+              >View contract
+            </a>
+            <a
+              href="https://github.com/pmulholland42/KwikSilverCoin"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-button"
+              >View source code</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <img
+          src="assets/website.png"
+          alt="Screenshot of this website"
+          title="Screenshot of this website"
+          class="project-pic"
+        />
+        <div class="project">
+          <div class="project-title-container">
+            <h3 class="project-title">Personal website</h3>
+            <div class="flex-row">
+              <div class="tech-pill">HTML</div>
+              <div class="tech-pill">CSS</div>
+            </div>
+          </div>
+          <p>
+            This one you're looking at now. Designed with a focus on simplicity,
+            accessibility, and responsiveness.
+          </p>
+          <div class="link-button-container">
+            <a class="link-button" href="http://petermulholland.co">View </a>
+            <a
+              href="https://github.com/pmulholland42/personal-website"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-button"
+              >View source code
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume">
+      <div class="text-section">
+        <h2>Resume</h2>
+        <div>
+          <div class="work-experience-container">
+            <div class="work-experience-timeline">December 2021 - Present</div>
+            <div class="work-experience-entry">
+              <h3>
+                <a href="https://www.shieldshealthsolutions.com/">
+                  Shields Health Solutions
+                </a>
+              </h3>
+              <div class="flex-row">
+                <h4>Software Developer</h4>
+                <div class="tech-pill">Java</div>
+                <div class="tech-pill">Spring</div>
+                <div class="tech-pill">PostgreSQL</div>
+                <div class="tech-pill">Elm</div>
+                <div class="tech-pill">CSS</div>
+              </div>
+              <p style="font-size: 1em">
+                I am working closely with my team to develop new features for a
+                web application. I am practicing test driven development and
+                pair programming to ensure code quality. I am participating in
+                the Agile methodology with sprint planning meetings, daily
+                standups, and retrospectives. I am also participating in and
+                hosting code review and lunch & learn meetings where developers
+                on the team can share technical knowledge.
+              </p>
+            </div>
+          </div>
+
+          <div class="work-experience-container">
+            <div class="work-experience-timeline">
+              August 2021 - December 2021
+            </div>
+            <div class="work-experience-entry">
+              <h3>
+                <a href="https://www.bentley.com"> Bentley Systems </a>
+              </h3>
+              <div class="flex-row">
+                <h4>Software Engineer 1</h4>
+                <div class="tech-pill">TypeScript</div>
+                <div class="tech-pill">React Native</div>
+                <div class="tech-pill">C#</div>
+                <div class="tech-pill">.NET Core</div>
+                <div class="tech-pill">Postman</div>
+              </div>
+              <p style="font-size: 1em">
+                I worked with my team to design and develop a new mobile
+                application. I participated in meetings with product owners to
+                understand and refine requirements, as well as meetings with
+                other developers and UI designers to design workflows and pages
+                within the app. I did full-stack development, wrote
+                documentation, and did code reviews. I also led an initiative to
+                improve testing by adding unit tests for our app's API.
+              </p>
+            </div>
+          </div>
+
+          <div class="work-experience-container">
+            <div class="work-experience-timeline">
+              <div>May 2019 - August 2021</div>
+            </div>
+            <div class="work-experience-entry">
+              <div class="flex-row">
+                <h4>Associate Software Engineer</h4>
+                <div class="tech-pill">TypeScript</div>
+                <div class="tech-pill">React</div>
+                <div class="tech-pill">C#</div>
+                <div class="tech-pill">.NET Core</div>
+                <div class="tech-pill">SQL Server</div>
+              </div>
+              <p style="font-size: 1em">
+                I participated in an onboarding program where I rotated between
+                teams throughout my first two years. I worked with two different
+                web development teams, a mobile development team, and the
+                application security team. I was able to quickly learn and adapt
+                to each new team so I could make meaningful contributions, and
+                bring ideas across teams to improve technology and processes.
+                During this time I also mentored a summer intern.
+              </p>
+            </div>
+          </div>
+
+          <div class="work-experience-container">
+            <div class="work-experience-timeline">
+              <div>May 2017 - August 2018</div>
+            </div>
+            <div class="work-experience-entry">
+              <div class="flex-row">
+                <h4>Intern</h4>
+                <div class="tech-pill">Angular</div>
+                <div class="tech-pill">C#</div>
+                <div class="tech-pill">ASP.NET</div>
+                <div class="tech-pill">SQL Server</div>
+                <div class="tech-pill">Oracle SQL</div>
+              </div>
+
+              <p style="font-size: 1em">
+                Fixed defects and added functionality to a production web app.
+                Made performance improvements across several pages of the site.
+              </p>
+            </div>
           </div>
         </div>
 
+        <h2>Education</h2>
+        <h3>
+          <a href="https://www.pitt.edu/">University of Pittsburgh</a>
+        </h3>
+        <div>Class of 2019</div>
+        <div>Bachelor of Science/Arts</div>
+        <div>Major: Computer Science</div>
+        <div>Minor: Economics</div>
+        <div>GPA: 3.6</div>
+
+        <h3>Awards and Achievements</h3>
+        <div>Pitt Dean's List:</div>
+        <div>
+          Fall 2015, Fall 2016, Spring 2017, Spring 2018, Fall 2018, Spring 2019
+        </div>
         <br />
+        <div>
+          Won first place at
+          <a href="http://steelhacks.com/">SteelHacks 2017</a>
+        </div>
+
+        <h3>Coursework</h3>
+        <div>Data Structures</div>
+        <div>Algorithm Implementation</div>
+        <div>Operating Systems</div>
+        <div>Database Management Systems</div>
+        <div>Artificial Intelligence</div>
+        <div>Blockchain Technology and Cryptocurrency</div>
+        <div>Machine Learning</div>
+        <div>Data Science</div>
+        <div>Software Engineering</div>
       </div>
+    </section>
 
-      <br />
-
-      <h2>Education</h2>
-      <h3>
-        <a href="https://www.pitt.edu/">University of Pittsburgh</a>
-      </h3>
-      <div>Class of 2019</div>
-      <div>Bachelor of Science/Arts</div>
-      <div>Major: Computer Science</div>
-      <div>Minor: Economics</div>
-      <div>GPA: 3.6</div>
-
-      <h3>Awards and Achievements</h3>
-      <div>Pitt Dean's List:</div>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        Please don't hesitate to reach out if you have questions, want to
+        collaborate, or anything else!
+      </p>
       <div>
-        Fall 2015, Fall 2016, Spring 2017, Spring 2018, Fall 2018, Spring 2019
+        <div class="contact-method">
+          <i class="icon fas fa-envelope contact-method-icon"></i>
+          <div class="contact-method-text">pmulholland08 (at) gmail.com</div>
+        </div>
+        <div class="contact-method">
+          <a
+            href="https://github.com/pmulholland42"
+            class="icon fab fa-github contact-method-icon"
+            title="GitHub: pmulholland42"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+          <a
+            href="https://github.com/pmulholland42"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-method-text"
+            >Github</a
+          >
+        </div>
+        <div class="contact-method">
+          <a
+            href="https://www.linkedin.com/in/peter-mulholland/"
+            class="icon fab fa-linkedin contact-method-icon"
+            title="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/peter-mulholland/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-method-text"
+            >LinkedIn</a
+          >
+        </div>
       </div>
-      <br />
-      <div>
-        Won first place at
-        <a href="http://steelhacks.com/">SteelHacks 2017</a>
+    </section>
+
+    <section>
+      <hr />
+      <div class="footer">
+        <div style="display: flex; align-items: flex-end"></div>
+        <div>Site last updated: 29 March 2022</div>
       </div>
-
-      <h3>Coursework</h3>
-      <div>Data Structures</div>
-      <div>Algorithm Implementation</div>
-      <div>Operating Systems</div>
-      <div>Database Management Systems</div>
-      <div>Artificial Intelligence</div>
-      <div>Blockchain Technology and Cryptocurrency</div>
-      <div>Machine Learning</div>
-      <div>Data Science</div>
-      <div>Software Engineering</div>
-    </div>
-
-    <br />
-    <hr />
-    <div class="footer">
-      <div>Contact me: pmulholland08 (at) gmail.com</div>
-      <div>Site last updated: 27 March 2022</div>
-    </div>
+    </section>
   </body>
 </html>
