@@ -3,19 +3,17 @@ html {
 }
 
 body {
-  margin: auto;
-  max-width: 900px;
   line-height: 1.4;
   font-size: 1em;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 0 10px;
   background-color: white;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
-  color: #4c678c;
+  color: #285192;
 }
 
 h1 {
@@ -38,12 +36,27 @@ h4 {
   justify-content: center;
   width: 100%;
   height: 4rem;
+  top: 0;
   left: 0;
-  background-color: #4c678c;
+  background-color: #285192;
+  z-index: 10;
 }
 
-section {
+.content-section {
   padding-top: 4rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+}
+
+.home-section {
+  height: 100vh;
+  background-image: url("assets/header-background.jpg");
+  background-color: #396aae;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0.3rem 1rem black;
+  margin-bottom: 1.5rem;
 }
 
 .menu-header {
@@ -62,8 +75,12 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 75vh;
   flex-direction: column;
+  max-width: 900px;
+  margin: auto;
+  color: white;
+  text-shadow: 0 2px 3px black;
 }
 
 .main-header-title {
@@ -86,6 +103,15 @@ section {
   text-align: center;
 }
 
+.about-me-link {
+  color: #badeff;
+}
+
+.header-hr {
+  color: #6c98c1;
+  width: 75%;
+}
+
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -100,6 +126,19 @@ section {
   padding: 5px 10px 0 5px;
   color: black;
   font-size: 2em;
+}
+
+.header-icon {
+  margin: 10px 20px 0 20px;
+  color: #badeff;
+  font-size: 2em;
+  text-shadow: none;
+  transition: translate 200ms ease-out 100ms;
+  translate: 0;
+}
+
+.header-icon:hover {
+  translate: 0 -0.4rem;
 }
 
 .project {
@@ -174,7 +213,7 @@ section {
   padding: 3px 8px 3px 8px;
   margin: 3px 0 3px 25px;
   border-radius: 100px;
-  background-color: #256e5e;
+  background-color: #0c6f5e;
   color: white;
   height: fit-content;
   white-space: nowrap;
@@ -187,8 +226,8 @@ section {
 
 .link-button {
   border-radius: 0.5rem;
-  background-color: #4c678c;
-  padding: 5px;
+  background-color: #285192;
+  padding: 5px 10px 5px 10px;
   color: white;
   margin-right: 10px;
 }
@@ -303,8 +342,12 @@ section {
     height: 10rem;
   }
 
-  section {
+  .content-section {
     padding-top: 10rem;
+  }
+
+  .main-header {
+    height: 70vh;
   }
 
   .main-header-subtitle-container {

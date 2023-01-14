@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="theme-color" content="#4c678c" />
+    <meta name="theme-color" content="#285192" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link
       rel="stylesheet"
@@ -25,13 +25,13 @@
       </div>
     </div>
 
-    <section id="home">
+    <section id="home" class="home-section">
       <div class="main-header">
         <h1 class="main-header-title">Peter Mulholland</h1>
         <div class="main-header-subtitle-container">
           <div class="main-header-subtitle">
             <i class="fas fa-briefcase" style="margin-right: 10px"></i>Software
-            Developer
+            Engineer
           </div>
           <div class="main-header-subtitle">
             <i class="fas fa-map-marker-alt" style="margin-right: 10px"></i
@@ -40,25 +40,51 @@
         </div>
         <p class="summary-paragraph">
           Welcome to my website! Scroll or click to learn more
-          <a href="#aboutme">about me</a>.
+          <a href="#aboutme" class="about-me-link">about me</a>.
         </p>
+        <hr class="header-hr" />
+        <div>
+          <div class="contact-method">
+            <a
+              href="https://github.com/pmulholland42"
+              class="header-icon fab fa-github contact-method-icon"
+              title="GitHub: pmulholland42"
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/peter-mulholland/"
+              class="header-icon fab fa-linkedin contact-method-icon"
+              title="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+            <a
+              href="https://www.instagram.com/pmulholland42/"
+              class="header-icon fab fa-instagram contact-method-icon"
+              title="Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="aboutme">
+    <section id="aboutme" class="content-section">
       <h2>About me</h2>
 
       <div class="text-section">
-        Hi! I'm a software engineer based in Pittsburgh, PA. I have over 4 years
+        Hi! I'm a software engineer based in Pittsburgh, PA. I have over 5 years
         of experience with professional software development. My main experience
         is in web dev and mobile app dev, but I'm interested in a wide variety
         of fields, including machine learning and blockchain. I also enjoy
-        photography, gaming, and baking cheesecake. Check out some of my
-        favorite programming projects below!
+        photography, biking, and baking cheesecake. Check out my work experience
+        and some of my favorite programming projects below!
       </div>
     </section>
 
-    <section id="resume">
+    <section id="resume" class="content-section">
       <div class="text-section">
         <h2>Resume</h2>
         <div>
@@ -93,7 +119,7 @@
                 </li>
                 <li>
                   Sharing knowledge with the team by planning and hosting code
-                  review and lunch & learn meetings
+                  review meetings and lunch & learn meetings
                 </li>
               </ul>
             </div>
@@ -117,8 +143,8 @@
               </div>
               <ul style="font-size: 1em">
                 <li>
-                  Designed and developed a new mobile application from the
-                  ground up
+                  Led the design and development of a new mobile application
+                  from the ground up
                 </li>
                 <li>
                   Worked with React Native in the frontend and .NET Core in the
@@ -126,7 +152,8 @@
                 </li>
                 <li>Wrote documentation and participated in code reviews</li>
                 <li>
-                  Met with product owners to understand and refine requirements
+                  Worked closely with product owners to understand and refine
+                  requirements
                 </li>
                 <li>
                   Worked with other developers and UI designers to design
@@ -134,7 +161,7 @@
                 </li>
                 <li>
                   Led an initiative to improve testing by adding unit tests for
-                  our app's API
+                  API endpoints
                 </li>
               </ul>
             </div>
@@ -213,7 +240,9 @@
         <br />
         <div>
           Won first place at
-          <a href="http://steelhacks.com/">SteelHacks 2017</a>
+          <a href="https://steelhacks2017.devpost.com/project-gallery"
+            >SteelHacks 2017</a
+          >
         </div>
 
         <h3>Coursework</h3>
@@ -229,7 +258,7 @@
       </div>
     </section>
 
-    <section id="portfolio">
+    <section id="portfolio" class="content-section">
       <h2>Portfolio</h2>
       <p>Check out some projects I've worked on:</p>
 
@@ -292,7 +321,8 @@
 
           <p>
             A 2D browser game that you can control with your phone. I developed
-            this at SteelHacks 2017 with Tyler Bobik, Andrew Masih, and Dan
+            this at SteelHacks 2017 with
+            <a href="http://bobik.co">Tyler Bobik</a>, Andrew Masih, and Dan
             Critchfield. We won first place for it!
           </p>
           <div class="link-button-container">
@@ -385,7 +415,7 @@
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="content-section">
       <h2>Contact Me</h2>
       <p>
         Please don't hesitate to reach out if you have questions, want to
@@ -431,11 +461,11 @@
       </div>
     </section>
 
-    <section>
+    <section class="content-section">
       <hr />
       <div class="footer">
-        <div style="display: flex; align-items: flex-end"></div>
-        <div>Site last updated: 29 March 2022</div>
+        <div><a href="#home">Background photo</a> by Peter Mulholland</div>
+        <div>Site last updated: 20 May 2022</div>
       </div>
     </section>
   </body>
