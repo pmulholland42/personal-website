@@ -162,6 +162,10 @@ section {
   flex: 11;
 }
 
+li + li {
+  margin-top: 8px;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
