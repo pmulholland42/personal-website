@@ -1,2 +1,4 @@
 minified/*
-assets/header-background.png
+assets/header-background.*
+assets/*.png
+assets/*.jpg
