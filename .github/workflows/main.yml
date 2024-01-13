@@ -21,4 +21,4 @@ jobs:
             **/.git*
             **/.git*/**
             **/node_modules/**
-            **/styles/header-background.webp
+            **/assets/header-background.webp
