@@ -135,6 +135,7 @@ h4 {
   text-shadow: none;
   transition: translate 200ms ease-out 100ms;
   translate: 0;
+  height: "48px";
 }
 
 .header-icon:hover {
