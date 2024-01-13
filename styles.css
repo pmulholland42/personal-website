@@ -135,7 +135,6 @@ h4 {
   text-shadow: none;
   transition: translate 200ms ease-out 100ms;
   translate: 0;
-  height: "48px";
 }
 
 .header-icon:hover {
@@ -255,12 +254,25 @@ li + li {
 /* Mobile */
 @media only screen and (max-device-width: 480px) {
   body {
-    font-size: 3em;
+    font-size: 1em;
+  }
+
+  p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .header-icon {
+    font-size: 1.8rem;
+  }
+
+  .main-header-title {
+    font-size: 2rem;
   }
 
   .project-container {
     justify-content: center;
-    margin-bottom: 10rem;
+    margin-bottom: 4rem;
   }
 
   .project {
@@ -268,7 +280,7 @@ li + li {
   }
 
   .main-header-subtitle {
-    font-size: 3rem;
+    font-size: 1rem;
   }
 
   .tech-pill {
@@ -282,7 +294,7 @@ li + li {
 
   .icon {
     padding: 20px 20px 0 20px;
-    font-size: 1.7em;
+    font-size: 1em;
   }
 
   .work-experience-container {
@@ -331,24 +343,25 @@ li + li {
   }
 
   .link-button {
-    padding: 1.5rem;
-    margin: 0.5rem;
+    padding: 1rem;
+    margin: 0.25rem;
   }
 
   .menu-header {
     width: 100%;
+    min-width: 100vw;
   }
 
   .menu-header-link {
-    font-size: 2rem;
+    font-size: 0.8rem;
   }
 
   .menu-header-container {
-    height: 10rem;
+    height: 4rem;
   }
 
   .content-section {
-    padding-top: 10rem;
+    padding-top: 4rem;
   }
 
   .main-header {
@@ -361,7 +374,7 @@ li + li {
   }
 
   .contact-method {
-    font-size: 3rem;
+    font-size: 1.2rem;
     width: 100%;
   }
 
