@@ -7,4 +7,4 @@ This repo contains the source code of my personal website which includes:
  - links to projects I've made
  - my contact info and social links
 
-The site is up at [petermulholland.co](https://petermulholland.co) (main link) and [petermulhol.land](petermulhol.land) (cool, space age link)
+The site is up at [petermulholland.co](https://www.petermulholland.co) (main link) and [petermulhol.land](http://www.petermulhol.land) (cool, space age link)
