@@ -215,12 +215,13 @@ li + li {
 .tech-pill {
   font-size: 0.7em;
   padding: 3px 8px 3px 8px;
-  margin: 3px 0 3px 25px;
+  margin: 3px 0 3px 16px;
   border-radius: 100px;
   background-color: #0c6f5e;
   color: white;
   height: fit-content;
   white-space: nowrap;
+  font-weight: bold;
 }
 
 .link-button-container {
