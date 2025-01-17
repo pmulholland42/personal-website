@@ -143,6 +143,7 @@ h4 {
 
 .project {
   flex: 1;
+  padding-left: 4rem;
 }
 
 .project-container {
@@ -250,6 +251,11 @@ li + li {
 
 .contact-method-text {
   flex: 6;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 /* Mobile */

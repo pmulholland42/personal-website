@@ -36,8 +36,8 @@
       <div class="menu-header">
         <a href="#home" class="menu-header-link home-link">HOME</a>
         <a href="#aboutme" class="menu-header-link">ABOUT ME</a>
-        <a href="#resume" class="menu-header-link">RESUME</a>
         <a href="#portfolio" class="menu-header-link">PORTFOLIO</a>
+        <a href="#resume" class="menu-header-link">RESUME</a>
         <a href="#contact" class="menu-header-link">CONTACT</a>
       </div>
     </div>
@@ -100,6 +100,153 @@
         and some of my favorite programming projects below!
       </div>
     </section>
+
+        <section id="portfolio" class="content-section">
+      <h2>Portfolio</h2>
+      <p style="padding-bottom: 2rem;">Check out some projects I've worked on:</p>
+
+      <div class="project-container">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          poster="assets/home-dark.webp"
+          style="width: 16rem; display: block;"
+        >
+          <source src="assets/home-dark.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="project">
+          <div class="project-title-container">
+            <h3 class="project-title">Strider</h3>
+            <div class="flex-row">
+              <div class="tech-pill">TypeScript</div>
+              <div class="tech-pill">React Native</div>
+              <div class="tech-pill">C#</div>
+              <div class="tech-pill">ASP.NET</div>
+              <div class="tech-pill">Postgres</div>
+              <div class="tech-pill">Docker</div>
+            </div>
+          </div>
+          <p>
+            A run-tracking app for iOS and Android, featuring:
+          </p>
+          <ul class="no-bullets">
+            <li>🚀 <strong>Real-Time Pace Tracking</strong><br>
+                Stay on top of your performance with live pace, distance, and timing updates while you run.</li>
+            <li>📊 <strong>Interactive Graphs</strong><br>
+                Dive into fully interactive graphs for pace, elevation, and weekly distance to analyze your progress like a pro.</li>
+            <li>🔐 <strong>Comprehensive User Account System</strong><br>
+                Seamlessly register, log in, and manage your profile with a secure and user-friendly interface.</li>
+            <li>☁️ <strong>Cloud Sync</strong><br>
+                Save your runs to the cloud and effortlessly access them on all your devices—anytime, anywhere.</li>
+            <li>🎨 <strong>Customizable Color Themes</strong><br>
+                Choose between light, dark, or OLED-optimized themes to suit your style and enhance your experience.</li>
+            <li>🌍 <strong>Global Unit Support</strong><br>
+                Run your way with support for both metric and imperial units—displayed consistently across the app.</li>
+          </ul>
+
+          <div class="link-button-container">
+            <a
+              href="https://www.strider.run/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-button"
+              >More about Strider
+              <i class="fas fa-external-link" style="margin-left: 0.5rem"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <img
+          src="assets/spacemap.webp"
+          class="project-pic"
+          alt="Screenshot of Spacecraft Map"
+          title="Screenshot of Spacecraft Map"
+          width="400"
+          height="300"
+        />
+        <div class="project">
+          <div class="project-title-container">
+            <h3 class="project-title">Spacecraft map</h3>
+            <div class="flex-row">
+              <div class="tech-pill">TypeScript</div>
+              <div class="tech-pill">React</div>
+              <div class="tech-pill">Sass</div>
+            </div>
+          </div>
+
+          <p>
+            A 2D interactive map of the solar system where all distances and
+            sizes are to scale. For this project I focused on creating smooth
+            animations for various UI components as well as zooming and panning
+            around the map.
+          </p>
+          <div class="link-button-container">
+            <a
+              href="http://spacecraftmap.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-button"
+              >View map <i class="fas fa-external-link" style="margin-left: 0.5rem"></i>
+            </a>
+            <a
+              href="https://github.com/pmulholland42/spacecraft-map"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-button"
+              >View source code <i class="fas fa-external-link" style="margin-left: 0.5rem"></i></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <img
+          src="assets/coolgame.webp"
+          alt="Screenshot of Cool Game Dot Win"
+          title="Screenshot of CoolGameDotWin"
+          class="project-pic"
+          width="400"
+          height="300"
+        />
+        <div class="project">
+          <div class="project-title-container">
+            <h3 class="project-title">CoolGameDotWin</h3>
+            <div class="flex-row">
+              <div class="tech-pill">JavaScript</div>
+            </div>
+          </div>
+
+          <p>
+            A 2D browser game that you can control with your phone. I developed
+            this at SteelHacks 2017 with
+            <a href="http://bobik.co">Tyler Bobik</a>, Andrew Masih, and Dan
+            Critchfield. We won first place for it!
+          </p>
+          <div class="link-button-container">
+            <a
+              href="http://www.coolgame.win"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-button"
+              >Play now <i class="fas fa-external-link" style="margin-left: 0.5rem"></i></a
+            >
+            <a
+              href="https://github.com/pmulholland42/CoolGameDotWin"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-button"
+              >View source code <i class="fas fa-external-link" style="margin-left: 0.5rem"></i></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section id="resume" class="content-section">
       <div class="text-section">
@@ -302,170 +449,6 @@
       </div>
     </section>
 
-    <section id="portfolio" class="content-section">
-      <h2>Portfolio</h2>
-      <p>Check out some projects I've worked on:</p>
-
-      <div class="project-container">
-        <img
-          src="assets/spacemap.webp"
-          class="project-pic"
-          alt="Screenshot of Spacecraft Map"
-          title="Screenshot of Spacecraft Map"
-          width="400"
-          height="300"
-        />
-        <div class="project">
-          <div class="project-title-container">
-            <h3 class="project-title">Spacecraft map</h3>
-            <div class="flex-row">
-              <div class="tech-pill">TypeScript</div>
-              <div class="tech-pill">React</div>
-              <div class="tech-pill">Sass</div>
-            </div>
-          </div>
-
-          <p>
-            A 2D interactive map of the solar system where all distances and
-            sizes are to scale. For this project I focused on creating smooth
-            animations for various UI components as well as zooming and panning
-            around the map.
-          </p>
-          <div class="link-button-container">
-            <a
-              href="http://spacecraftmap.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="link-button"
-              >View map
-            </a>
-            <a
-              href="https://github.com/pmulholland42/spacecraft-map"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="link-button"
-              >View source code</a
-            >
-          </div>
-        </div>
-      </div>
-
-      <div class="project-container">
-        <img
-          src="assets/coolgame.webp"
-          alt="Screenshot of Cool Game Dot Win"
-          title="Screenshot of CoolGameDotWin"
-          class="project-pic"
-          width="400"
-          height="300"
-        />
-        <div class="project">
-          <div class="project-title-container">
-            <h3 class="project-title">CoolGameDotWin</h3>
-            <div class="flex-row">
-              <div class="tech-pill">JavaScript</div>
-            </div>
-          </div>
-
-          <p>
-            A 2D browser game that you can control with your phone. I developed
-            this at SteelHacks 2017 with
-            <a href="http://bobik.co">Tyler Bobik</a>, Andrew Masih, and Dan
-            Critchfield. We won first place for it!
-          </p>
-          <div class="link-button-container">
-            <a
-              href="http://www.coolgame.win"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="link-button"
-              >Play now</a
-            >
-            <a
-              href="https://github.com/pmulholland42/CoolGameDotWin"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="link-button"
-              >View source code</a
-            >
-          </div>
-        </div>
-      </div>
-
-      <div class="project-container">
-        <img
-          src="assets/ethereum.webp"
-          alt="Ethereum logo"
-          title="Ethereum logo"
-          class="project-pic"
-          width="400"
-          height="300"
-        />
-        <div class="project">
-          <div class="project-title-container">
-            <h3 class="project-title">KwikSilverCoin</h3>
-            <div class="flex-row">
-              <div class="tech-pill">Solidity</div>
-            </div>
-          </div>
-          <p>
-            An ERC-20 token running on the Ethereum network. It costs more to
-            send the longer you hold it. I made this for a college class on
-            blockchain technologies.
-          </p>
-          <div class="link-button-container">
-            <a
-              href="https://ropsten.etherscan.io/address/0x4b7b60722e1fe118853b5aca95e0ca44307d0a99"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="link-button"
-              >View contract
-            </a>
-            <a
-              href="https://github.com/pmulholland42/KwikSilverCoin"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="link-button"
-              >View source code</a
-            >
-          </div>
-        </div>
-      </div>
-
-      <div class="project-container">
-        <img
-          src="assets/website.webp"
-          alt="Screenshot of this website"
-          title="Screenshot of this website"
-          class="project-pic"
-          width="400"
-          height="300"
-        />
-        <div class="project">
-          <div class="project-title-container">
-            <h3 class="project-title">Personal website</h3>
-            <div class="flex-row">
-              <div class="tech-pill">HTML</div>
-              <div class="tech-pill">CSS</div>
-            </div>
-          </div>
-          <p>
-            This one you're looking at now. Designed with a focus on simplicity,
-            accessibility, and responsiveness.
-          </p>
-          <div class="link-button-container">
-            <a class="link-button" href="http://petermulholland.co">View </a>
-            <a
-              href="https://github.com/pmulholland42/personal-website"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="link-button"
-              >View source code
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section id="contact" class="content-section">
       <h2>Contact Me</h2>
@@ -517,7 +500,7 @@
       <hr />
       <div class="footer">
         <div><a href="#home">Background photo</a> by Peter Mulholland</div>
-        <div>Site last updated: 12 January 2024</div>
+        <div>Site last updated: 17 January 2025</div>
       </div>
     </section>
   </body>
